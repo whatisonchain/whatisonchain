@@ -13,6 +13,7 @@ const BlogLayout: React.FC<{ data: PageQuery }> = ({ data }) => {
         title={frontmatter?.title!}
         description={frontmatter?.description!}
         image={frontmatter?.image!}
+        pathname={frontmatter?.path!}
       />
       <div className="blog-post-container">
         <div className="blog-post">

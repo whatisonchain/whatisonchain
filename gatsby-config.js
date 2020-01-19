@@ -4,6 +4,7 @@ module.exports = {
     description: `Your go to site for cryptocurrency tools and instrument.`,
     author: `@whatisonchain`,
     image: "/coins/bitcoin.png",
+    baseUrl: "https://whatisonchain.com",
   },
   plugins: [
     `gatsby-plugin-typescript`,

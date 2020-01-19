@@ -2305,6 +2305,7 @@ export type SiteFieldsEnum =
   'siteMetadata___description' |
   'siteMetadata___author' |
   'siteMetadata___image' |
+  'siteMetadata___baseUrl' |
   'polyfill' |
   'pathPrefix' |
   'buildTime';
@@ -2919,6 +2920,7 @@ export type SiteSiteMetadata = {
   description?: Maybe<Scalars['String']>,
   author?: Maybe<Scalars['String']>,
   image?: Maybe<Scalars['String']>,
+  baseUrl?: Maybe<Scalars['String']>,
 };
 
 export type SiteSiteMetadataFilterInput = {
@@ -2926,6 +2928,7 @@ export type SiteSiteMetadataFilterInput = {
   description?: Maybe<StringQueryOperatorInput>,
   author?: Maybe<StringQueryOperatorInput>,
   image?: Maybe<StringQueryOperatorInput>,
+  baseUrl?: Maybe<StringQueryOperatorInput>,
 };
 
 export type SiteSortInput = {
@@ -2999,7 +3002,7 @@ export type CoinsQuery = { allCoinsJson: { edges: Array<{ node: Pick<CoinsJson, 
 export type SeoQueryVariables = {};
 
 
-export type SeoQuery = { site: Maybe<{ siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'description' | 'author' | 'image'>> }> };
+export type SeoQuery = { site: Maybe<{ siteMetadata: Maybe<Pick<SiteSiteMetadata, 'title' | 'description' | 'author' | 'image' | 'baseUrl'>> }> };
 
 export type GatsbyImageSharpFixedFragment = Pick<ImageSharpFixed, 'base64' | 'width' | 'height' | 'src' | 'srcSet'>;
 

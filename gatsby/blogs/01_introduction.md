@@ -57,6 +57,8 @@ Daostack is a dao framework that build on top of ethereum. I wanted to build an 
 
 </div>
 
+In Steem blockchain, one of the top asked question between the community is "how do I delegate", so I implemented this feature for users that are interested to delegate their Steem Power to others.
+
 ### Steem Proposals
 
 <div align="center">
@@ -65,6 +67,8 @@ Daostack is a dao framework that build on top of ethereum. I wanted to build an 
 [Steem Proposals page](/coins/steem/proposals)
 
 </div>
+
+Similar to DAO Stack, on Steem blockchain, there's also a DAO ecosystem called Steem Proposals, by calling onchain data, this site can show latest DAO's proposal on Steem.
 
 # Future plans
 

@@ -16,6 +16,7 @@ interface SEOProps {
   meta?: { name: string; content: string }[]
   title?: string
   image?: string
+  pathname?: string
 }
 
 const seoQuery = graphql`
@@ -26,6 +27,7 @@ const seoQuery = graphql`
         description
         author
         image
+        baseUrl
       }
     }
   }
@@ -37,6 +39,7 @@ const SEO: React.FC<SEOProps> = ({
   meta = [],
   image = "",
   title = "",
+  pathname = "",
 }) => {
   const { site } = useStaticQuery<SeoQuery>(seoQuery)
 
@@ -44,6 +47,7 @@ const SEO: React.FC<SEOProps> = ({
     description || (site!.siteMetadata!.description as string)
 
   const metaImage = image || "https://whatisonchain.com/logo.png"
+  const url = site!.siteMetadata!.baseUrl + pathname
 
   return (
     <Helmet
@@ -58,6 +62,10 @@ const SEO: React.FC<SEOProps> = ({
           content: metaDescription,
         },
         // Open Graph
+        {
+          property: `og:url`,
+          content: url,
+        },
         {
           property: `og:site_name`,
           content: `${site!.siteMetadata!.title}`,
@@ -75,7 +83,8 @@ const SEO: React.FC<SEOProps> = ({
           content: `website`,
         },
         {
-          name: `og:image`,
+          name: `image`,
+          property: `og:image`,
           content: metaImage,
         },
         // Twitter

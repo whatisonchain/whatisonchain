@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import { BlogQuery } from "../../types/graphql-types"
 import Layout from "../layout/layout"
+import SEO from "../shared/seo"
 
 const blogQuery = graphql`
   query Blog {
@@ -29,6 +30,11 @@ const BlogPage = () => {
   const allMd = allMarkdownRemark.edges
   return (
     <Layout>
+      <SEO
+        title="WhatIsOnchain? Blog"
+        description="Official blog from WhatIsOnchain?"
+        pathname="/blogs"
+      />
       <div className="pb-4">
         <h1 className="text-5xl">Blogs</h1>
         <h3 className="text-xl">Official blog from WhatIsOnchain?</h3>
@@ -43,10 +49,10 @@ const BlogPage = () => {
             {md.node.frontmatter?.title}
           </Link>
           <div>
-            <p className="text-lg">{md.node.frontmatter?.author}</p>
+            <p className="text-xl font-bold">{md.node.frontmatter?.author}</p>
             <p>{md.node.frontmatter?.date}</p>
           </div>
-          <div>
+          <div className="mt-2">
             <p>{md.node.frontmatter?.description}</p>
           </div>
         </div>

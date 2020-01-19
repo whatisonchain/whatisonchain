@@ -39,7 +39,7 @@ export const Footer = () => {
               Feedback / Suggestion
             </a>
           </div>
-          <div>
+          <div className="flex flex-col">
             <h5 className="text-2xl">Social</h5>
             <a
               className="link"
