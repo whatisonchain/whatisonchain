@@ -11,25 +11,25 @@ hide_on_blogs: false
 
 # What's next
 
-WhatIsOnchain? was launch yesterday, I've collected a few feedbacks and here are a few things I am planning what to do next.
+WhatIsOnchain? was launch yesterday, I've collected a few valuable feedbacks and here are a few things I have learned and planned to do next.
 
 ## Bi-weekly ETH Network call
 
-I've join in the bi-weekly discord call on ETH Network by [@defidude](https://twitter.com/defidude)
+I've join in the bi-weekly discord call in ETH Network discord group by [@defidude](https://twitter.com/defidude)
 
 Here's a summary of what happen:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">THREAD: The 4th ETH Network community Discord call concluded at just over an hour long.<br><br>We got to discuss some awesome projects! We had <a href="https://twitter.com/StaniKulechov?ref_src=twsrc%5Etfw">@StaniKulechov</a> from <a href="https://twitter.com/AaveAave?ref_src=twsrc%5Etfw">@AaveAave</a> to introduce everyone to their new flash loan feature (awesome stuff), and even explain aTokens.<br><br>...</p>&mdash; DeFi Dude 🍪 (defidude.eth) (@DeFiDude) <a href="https://twitter.com/DeFiDude/status/1218944349641367553?ref_src=twsrc%5Etfw">January 19, 2020</a></blockquote>
 
-Learn something about the defi space, and manage to get some of the defi users feedback about what to work on.
+From this call, I learn a few interesting new project in the defi space, and manage to get some of the defi users feedback about what to work on next for the site.
 
 ### Aave
 
-Aave just launch recently, might be interesting to incoperate some of the core on chain data into the app as well! The flash loan concept is interesting, it allows multiple contract call in 1 transaction.
+Aave just launch recently, might be interesting to incoperate some of the core on chain data into the app as well! The flash loan concept is interesting, it allows multiple contract call to be merged into 1 transaction, allows zero risk arbitrage oppurtunity.
 
 ### DeFi onchain data
 
-DeFi onchain data such as borrow rate, lending rate etc.
+Some of the members suggested the site should incorperate DeFi onchain data such as borrow rate, lending rate etc.
 
 ### DeFi platform details (something like DeFi Pulse)
 
