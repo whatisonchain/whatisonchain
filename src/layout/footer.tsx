@@ -38,6 +38,14 @@ export const Footer = () => {
             >
               Feedback / Suggestion
             </a>
+            <a
+              className="link"
+              href="https://gitcoin.co/grants/389/whatisonchain"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Support us on Gitcoin
+            </a>
           </div>
           <div className="flex flex-col">
             <h5 className="text-2xl">Social</h5>
