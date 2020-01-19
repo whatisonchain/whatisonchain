@@ -19,6 +19,8 @@ Have you ever curious what is happening on a certain cryptocurrency project but 
 
 In short, WhatIsOnchain? allows you to access to your favorite cryptocurrency project and checkout the data on top of the blockchain. This project is open source on [github](https://github.com/whatisonchain/whatisonchain).
 
+I also realize that a few projects that are using web3, required user to use web3 provider (Metamask, Trustwallet etc) in order to use the site, so this site also allows user to directly get the data from blockchain without setting up anything with web3.
+
 # Background
 
 I had previously work on an [NFT Wallet](https://nft-manager.netlify.com/) project and [Steem Wallet](https://swallet.netlify.com/). I realize that with power of modern day front end development, I can build a full fletch front end website directly interacting with blockchain node, which is also known as onchain data. So, this project was created from hobby, but also a way for me to experiment onchain data and make it into use for others.
