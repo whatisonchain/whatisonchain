@@ -5,7 +5,7 @@ title: "Introduction to WhatIsOnchain?"
 author: "Johnson Lai (superoo7.eth)"
 author_website: "https://twitter.com/jlwhoo7"
 description: "Introduction post to WhatIsOnchain? It covers what's the purpose, background, features and technical of this site."
-image: "/blogs/01_introduction_background.jpg"
+image: "https://whatisonchain.com/blogs/01_introduction_background.jpg"
 hide_on_blogs: false
 ---
 
@@ -90,11 +90,21 @@ In a way, this make user easier to interact with the site.
 
 # Contact
 
+## Telegram
+
+Join our [telegram group](https://t.me/whatisonchain) (search whatisonchain)
+
+## Bug report
+
+You can report bugs at [github issues](https://github.com/whatisonchain/whatisonchain/issues).
+
+## Feedback and Suggestion
+
 I've created a [feedback form](https://forms.gle/3oiboPZJ7ff6R7oX6) for feedback and suggestions.
 
 # Technical
 
-This project is open source on github, using a technology called [JAM stack](https://jamstack.org/), and for certain API that required API keys, we are using Firebase cloud functions (e.g. API call to etherscan).
+This project is open source on [github](https://github.com/whatisonchain/whatisonchain), using a technology called [JAM stack](https://jamstack.org/), and for certain API that required API keys, we are using Firebase cloud functions (e.g. API call to etherscan).
 
 Here's are a few library that we are using:
 

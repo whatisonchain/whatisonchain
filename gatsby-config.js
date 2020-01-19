@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `WhatIsOnchain?`,
     description: `Your go to site for cryptocurrency tools and instrument.`,
-    author: `@ccinstrument`,
+    author: `@whatisonchain`,
     image: "/coins/bitcoin.png",
   },
   plugins: [

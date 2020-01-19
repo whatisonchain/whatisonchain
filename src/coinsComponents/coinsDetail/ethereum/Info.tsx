@@ -7,7 +7,7 @@ export const InfoTab = () => {
     ;(async () => {
       const isDev = process.env.NODE_ENV === "development"
       const url = isDev
-        ? "https://ccinstrument.firebaseapp.com/coins/ethereum"
+        ? "https://whatisonchain.com/api/getGasPrice"
         : "/api/getGasPrice"
       const response = await fetch(url)
       setEthData(await response.json())

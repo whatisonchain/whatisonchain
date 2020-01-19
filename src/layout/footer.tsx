@@ -24,6 +24,14 @@ export const Footer = () => {
             </Link>
             <a
               className="link"
+              href="https://github.com/whatisonchain/whatisonchain/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bug report
+            </a>
+            <a
+              className="link"
               href="https://forms.gle/3oiboPZJ7ff6R7oX6"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,6 +48,14 @@ export const Footer = () => {
               rel="noopener noreferrer"
             >
               Telegram
+            </a>
+            <a
+              className="link"
+              href="https://github.com/whatisonchain/whatisonchain"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
             </a>
           </div>
         </div>

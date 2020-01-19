@@ -5,7 +5,7 @@ import { urlEncode } from "./util"
 import * as dotenv from "dotenv"
 
 const corsHandler = cors({
-  origin: ["https://ccinstrument.firebaseapp.com/", "http://localhost:8000/"],
+  origin: ["https://whatisonchain.com/", "http://localhost:8000/"],
 })
 dotenv.config()
 

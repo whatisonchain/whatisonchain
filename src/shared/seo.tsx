@@ -43,7 +43,7 @@ const SEO: React.FC<SEOProps> = ({
   const metaDescription =
     description || (site!.siteMetadata!.description as string)
 
-  const metaImage = image || "logo.png"
+  const metaImage = image || "https://whatisonchain.com/logo.png"
 
   return (
     <Helmet

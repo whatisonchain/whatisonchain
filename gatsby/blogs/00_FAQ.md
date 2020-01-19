@@ -22,4 +22,4 @@ I had previously work on an [NFT Wallet](https://nft-manager.netlify.com/) proje
 
 Google form: https://forms.gle/oFb9ihp4AvTf2TZt7
 
-or just join in our telegram!
+or just join us on [telegram](https://t.me/whatisonchain)! (search whatisonchain)
