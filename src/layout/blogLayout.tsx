@@ -3,10 +3,21 @@ import { graphql } from "gatsby"
 import Layout from "./layout"
 import { PageQuery } from "../../types/graphql-types"
 import SEO from "../shared/seo"
+import { loadScript } from "../util/loadScript"
 
 const BlogLayout: React.FC<{ data: PageQuery }> = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark!
+
+  React.useEffect(() => {
+    const twitterEl = document.querySelector(".twitter-tweet")
+    if (twitterEl) {
+      loadScript("https://platform.twitter.com/widgets.js", () => {
+        window.twttr.widgets.load()
+      })
+    }
+  }, [])
+
   return (
     <Layout>
       <SEO
@@ -30,6 +41,7 @@ const BlogLayout: React.FC<{ data: PageQuery }> = ({ data }) => {
             </a>
           </div>
           <div
+            id="blog"
             className="mt-5 markdown"
             dangerouslySetInnerHTML={{ __html: html! }}
           />

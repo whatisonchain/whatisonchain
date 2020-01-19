@@ -4,6 +4,7 @@ import SteemPage from "./coinsDetail/steem"
 import EthereumPage from "./coinsDetail/ethereum"
 import { CoinJson } from "../model/CoinJson"
 import SteemDollarPage from "./coinsDetail/steem-dollars"
+import DaiPage from "./coinsDetail/dai"
 
 interface CoinDetailsRouterProps {
   coinId: string
@@ -25,6 +26,8 @@ const CoinDetailsRouter: React.FC<CoinDetailsRouterProps> = ({
       return <EthereumPage subRoute={subRoute} coinJson={coinJson} />
     case "steem-dollars":
       return <SteemDollarPage subRoute={subRoute} coinJson={coinJson} />
+    case "dai":
+      return <DaiPage subRoute={subRoute} coinJson={coinJson} />
     default:
       return null
   }

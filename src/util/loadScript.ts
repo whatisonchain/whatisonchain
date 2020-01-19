@@ -1,6 +1,6 @@
 let loadedScript: string[] = []
 
-export const loadScript = (src: string, onload: any) => {
+export const loadScript = (src: string, onload: any, force = false) => {
   if (loadedScript.indexOf(src) !== -1) {
     onload()
     return
