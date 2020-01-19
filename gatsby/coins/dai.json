@@ -1,0 +1,18 @@
+{
+  "coin_id": "dai",
+  "symbol": "dai",
+  "name": "Dai",
+  "image": "/coins/dai.png",
+  "tabs": [
+    {
+      "name": "Info",
+      "route": "info",
+      "description": ""
+    },
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    }
+  ]
+}

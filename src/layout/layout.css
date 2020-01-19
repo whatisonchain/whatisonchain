@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Link */
+
+.link {
+  @apply text-purple-800 underline;
+}
+
+.link:hover {
+  @apply underline;
+}
+
+/* Button */
+
+.btn {
+  @apply font-bold py-2 px-4 rounded cursor-pointer text-white;
+}
+
+.btn:shadow {
+  @apply shadow;
+}
+
+.btn-blue {
+  @apply bg-blue-500;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-600;
+}
+
+.btn-purple {
+  @apply bg-purple-500;
+}
+
+.btn-purple:hover {
+  @apply bg-purple-600;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+/* Box */
+
+.box {
+  @apply bg-purple-200 rounded-lg;
+}

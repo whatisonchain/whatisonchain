@@ -1,0 +1,13 @@
+{
+  "coin_id": "steem-dollars",
+  "symbol": "sbd",
+  "name": "Steem Dollars",
+  "image": "/coins/steem.png",
+  "tabs": [
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    }
+  ]
+}

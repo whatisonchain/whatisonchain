@@ -1,0 +1,7 @@
+.header-link {
+  @apply text-white text-2xl mr-2;
+}
+
+.header-link:hover {
+  @apply underline;
+}

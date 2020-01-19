@@ -1,0 +1,18 @@
+{
+  "coin_id": "sai",
+  "symbol": "sai",
+  "name": "Sai",
+  "image": "/coins/sai.png",
+  "tabs": [
+    {
+      "name": "Info",
+      "route": "info",
+      "description": ""
+    },
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "coin_id": "steem",
+  "symbol": "steem",
+  "name": "Steem",
+  "image": "/coins/steem.png",
+  "tabs": [
+    {
+      "name": "Info",
+      "route": "info",
+      "description": "Steem data powered by api.steemit.com"
+    },
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    },
+    {
+      "name": "Account",
+      "route": "account",
+      "description": ""
+    },
+    {
+      "name": "Proposals",
+      "route": "proposals",
+      "description": "Steem Blockchain has a DAO system called Steem Proposals System, this tab shows the latest funded DAO project on steem."
+    },
+    {
+      "name": "Delegation",
+      "route": "delegation",
+      "description": ""
+    }
+  ]
+}

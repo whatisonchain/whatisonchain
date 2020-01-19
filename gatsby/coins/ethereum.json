@@ -1,0 +1,23 @@
+{
+  "coin_id": "ethereum",
+  "symbol": "eth",
+  "name": "Ethereum",
+  "image": "/coins/ethereum.png",
+  "tabs": [
+    {
+      "name": "Info",
+      "route": "info",
+      "description": "Ethereum data powered by Infura API & Etherscan API"
+    },
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    },
+    {
+      "name": "Daostack",
+      "route": "daostack",
+      "description": ""
+    }
+  ]
+}

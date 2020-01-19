@@ -1,0 +1,23 @@
+{
+  "coin_id": "bitcoin",
+  "symbol": "btc",
+  "name": "Bitcoin",
+  "image": "/coins/bitcoin.png",
+  "tabs": [
+    {
+      "name": "Info",
+      "route": "info",
+      "description": ""
+    },
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    },
+    {
+      "name": "Stack Sats",
+      "route": "stack-sats",
+      "description": ""
+    }
+  ]
+}
