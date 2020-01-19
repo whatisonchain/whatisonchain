@@ -46,6 +46,14 @@ export const Footer = () => {
             >
               Support us on Gitcoin
             </a>
+            <a
+              className="link"
+              href="https://alchemy.daostack.io/dao/0x294f999356ed03347c7a23bcbcf8d33fa41dc830/proposal/0xb967781a8fbde196875d542ad223ff5b187740aac07db9212228c534256db96a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Support us on Genesis Dao
+            </a>
           </div>
           <div className="flex flex-col">
             <h5 className="text-2xl">Social</h5>
