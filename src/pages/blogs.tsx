@@ -16,7 +16,7 @@ const blogQuery = graphql`
             path
             title
             author
-            date(fromNow: true)
+            date
             description
           }
         }
