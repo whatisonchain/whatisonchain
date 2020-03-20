@@ -18,6 +18,11 @@
       "name": "Daostack",
       "route": "daostack",
       "description": ""
+    },
+    {
+      "name": "ENS",
+      "route": "ens",
+      "description": "Ethereum Name Services (ENS) address lookup"
     }
   ]
 }

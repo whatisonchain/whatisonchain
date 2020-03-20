@@ -33,7 +33,11 @@ const CoinsPage = () => {
               className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-2"
               key={key}
             >
-              <CoinCard {...node} />
+              <div className="w-full flex justify-center">
+                <div style={{ width: "200px" }}>
+                  <CoinCard {...node} />
+                </div>
+              </div>
             </div>
           )
         })}

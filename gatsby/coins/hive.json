@@ -1,0 +1,13 @@
+{
+  "coin_id": "hive",
+  "symbol": "hive",
+  "name": "Hive",
+  "image": "/coins/hive.png",
+  "tabs": [
+    {
+      "name": "Calculator",
+      "route": "calculator",
+      "description": ""
+    }
+  ]
+}

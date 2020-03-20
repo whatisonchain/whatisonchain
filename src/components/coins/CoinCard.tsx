@@ -30,10 +30,12 @@ const CoinCard: React.FC<CoinCardProps> = ({
       </div>
 
       <div className="px-2 py-1 flex justify-center">
-        <Link to={`/coins/${coin_id!}`} className="font-bold text-xl mb-2">
+        <Link
+          to={`/coins/${coin_id!}`}
+          className="font-bold text-xl mb-2 text-center"
+        >
           {name} ({symbol?.toUpperCase()})
         </Link>
-        <p className="text-gray-700 text-base"></p>
       </div>
     </div>
   )

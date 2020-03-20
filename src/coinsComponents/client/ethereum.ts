@@ -13,7 +13,10 @@ export class EthereumClient {
     this.initialize = true
   }
 
-  getGlobal() {
-    return this.client
+  ensLookup(username: string) {
+    if (!username.endsWith(".eth")) {
+      username += ".eth"
+    }
+    return this.client.eth.ens.getAddress(username)
   }
 }

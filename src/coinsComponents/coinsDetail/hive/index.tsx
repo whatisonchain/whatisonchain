@@ -1,20 +1,17 @@
 import React from "react"
 import { useCoinDetailsHooks } from "../../../util/coinDetailsHooks"
 import { CoinJson } from "../../../model/CoinJson"
+import { CoinTab } from "../../CoinTab"
 import { Calculator } from "../../CalculatorTab"
 import { Link } from "gatsby"
-import { InfoTab } from "./Info"
-import { CoinTab } from "../../CoinTab"
-import { DaostackTab } from "./Daostack"
-import { EnsTab } from "./Ens"
 import { Tab } from "../../Tab"
 
-interface EthereumPageProps {
+interface HivePageProps {
   subRoute: string
   coinJson: CoinJson
 }
 
-const EthereumPage: React.FC<EthereumPageProps> = ({ subRoute, coinJson }) => {
+const HivePage: React.FC<HivePageProps> = ({ subRoute, coinJson }) => {
   const { tabItem, checkRoute, tabObject } = useCoinDetailsHooks(
     coinJson,
     subRoute
@@ -27,31 +24,18 @@ const EthereumPage: React.FC<EthereumPageProps> = ({ subRoute, coinJson }) => {
       description: string
       route: string
     } = {} as any
-
     switch (subRoute) {
       case "calculator":
-        Comp = () => <Calculator coinId="ethereum" />
-        item = tabObject["calculator"]
-        break
-      case "daostack":
-        Comp = () => <DaostackTab />
-        item = tabObject["daostack"]
-        break
-      case "ens":
-        Comp = () => <EnsTab />
-        item = tabObject["ens"]
-        break
-      case "info":
       default:
-        item = tabObject["info"]
-        Comp = () => <InfoTab />
+        Comp = () => <Calculator coinId="hive" />
+        item = tabObject["calculator"]
         break
     }
     return (
       <CoinTab
         description={item.description}
         name={item.name}
-        coinId={"Ethereum"}
+        coinId={"hive"}
         Comp={Comp}
       />
     )
@@ -63,10 +47,10 @@ const EthereumPage: React.FC<EthereumPageProps> = ({ subRoute, coinJson }) => {
         tabItem={tabItem}
         checkRoute={checkRoute}
         TabComponent={TabComponent}
-        coinId="ethereum"
+        coinId="hive"
       />
     </div>
   )
 }
 
-export default EthereumPage
+export default HivePage
