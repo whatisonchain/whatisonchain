@@ -1,9 +1,9 @@
 {
   "name": "what-is-onchain",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "WhatIsOnchain <whatisonchain@gmail.com>",
   "dependencies": {
     "@coingecko/cg-api-ts": "0.0.24",
     "@reach/router": "^1.2.1",
