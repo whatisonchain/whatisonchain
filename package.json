@@ -21,7 +21,7 @@
     "gatsby-plugin-typescript": "^2.1.26",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-json": "^2.2.25",
-    "gatsby-transformer-remark": "^2.6.48",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.7",
     "isomorphic-fetch": "^2.2.1",
     "query-string": "^6.10.1",
